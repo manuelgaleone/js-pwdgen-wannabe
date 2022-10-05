@@ -1,21 +1,21 @@
-let user_name;
-let user_surname;
-let user_color;
-let this_year;
+let userName;
+let userSurname;
+let userColor;
+let thisYear;
 
-user_name = prompt("Come ti Chiami?");
-console.log("Il tuo nome è:" + " " + user_name);
+userName = prompt("Come ti Chiami?");
+console.log("Il tuo nome è:" + " " + userName);
 
-user_surname = prompt("Qual è il tuo Cognome?");
-console.log("Il tuo cognome è:" + " " + user_surname);
+userSurname = prompt("Qual è il tuo Cognome?");
+console.log("Il tuo cognome è:" + " " + userSurname);
 
-user_color = prompt("Qual è il tuo Colore preferito?");
-console.log("Il tuo Colore preferito è:" + " " + user_color);
+userColor = prompt("Qual è il tuo Colore preferito?");
+console.log("Il tuo Colore preferito è:" + " " + userColor);
 
-this_year = prompt("In che anno siamo?");
+thisYear = prompt("In che anno siamo?");
 
 let password_generated;
 
-password_generated = ("Ciao" + " " + user_name + "," + " " + "la tua Password è:" + " " + user_name + user_surname + user_color + this_year + ".");
+password_generated = ("Ciao" + " " + userName + "," + " " + "la tua Password è:" + " " + userName + userSurname + userColor + thisYear + ".");
 
 document.getElementById("password").innerHTML = password_generated;
