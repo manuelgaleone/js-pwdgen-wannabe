@@ -12,10 +12,10 @@ console.log("Il tuo cognome è:" + " " + user_surname);
 user_color = prompt("Qual è il tuo Colore preferito?");
 console.log("Il tuo Colore preferito è:" + " " + user_color);
 
-this_year = 2022;
+this_year = prompt("In che anno siamo?");
 
 let password_generated;
 
-password_generated = ("Ciao" + " " + user_name + "," + " " + "la tua Password è:" + " " + user_name + user_surname + user_color + this_year);
+password_generated = ("Ciao" + " " + user_name + "," + " " + "la tua Password è:" + " " + user_name + user_surname + user_color + this_year + ".");
 
-document.getElementById("password").innerHTML = password_generated
+document.getElementById("password").innerHTML = password_generated;
